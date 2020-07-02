@@ -114,7 +114,6 @@ if build_model == True:
     model.add(tf.keras.layers.Dropout(0.2))
     model.add(tf.keras.layers.LSTM(units=96))
     model.add(tf.keras.layers.Dropout(0.2))
-
     model.add(tf.keras.layers.Dense(units=1))
     model.compile(loss='mean_squared_error', optimizer='adam')
 
