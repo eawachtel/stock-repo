@@ -314,7 +314,7 @@ class StockData:
             threeDayAgoHigh = stockData['High'].iloc[len(stockData['High']) - 4]
             threeDayAgoLow = stockData['Low'].iloc[len(stockData['Low']) - 4]
 
-            absDelta = stockData['PriceDelta'].head(30).abs()
+            absDelta = stockData['PriceDelta'].tail(30).abs()
             avgBar = absDelta.mean()
 
             """Detect bullish engulfing"""
@@ -331,7 +331,7 @@ class StockData:
                 bar2High = dayAgoHigh + (.05 * dayAgoDelta)
                 if Low > bar2Low and High < bar2High:
                    scanResults['Potential 3 Bar Play Setup'] = 'Potential 3 Bar Play Setup'
-                   scanResults['score'] =scanResults['score'] + 2
+                   scanResults['score'] = scanResults['score'] + 2
 
             """Detect Inside bar play"""
             scanResults['Bullish 4 Bar Play'] = 'None'
@@ -381,6 +381,7 @@ if __name__ == '__main__':
     scanResultsList = []
 
     for i in range(0, len(stockList)):
+        print(str(i) + ' of ' + str(len(stockList)))
         print('Starting ' + stockList[i] + ' thread')
         scanResults = {}
         scanResults['ticker'] = stockList[i]
@@ -392,7 +393,7 @@ if __name__ == '__main__':
         EMA = StockData.ema(stockData, stockList[i], scanResults)
         RSI = StockData.RSI(stockData, stockList[i], scanResults)
         MACD = StockData.MACD(stockData, stockList[i], scanResults)
-        SRlevels = StockData.SRlevels(stockData, stockList[i], scanResults)
+        # SRlevels = StockData.SRlevels(stockData, stockList[i], scanResults)
         bullishEngulf = StockData.bullishEngulf(stockData, stockList[i], scanResults)
         scanResultsList.append(scanResults)
         print('Done with ', stockList[i])
