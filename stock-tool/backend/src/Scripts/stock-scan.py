@@ -318,7 +318,7 @@ class StockData:
             avgBar = absDelta.mean()
 
             """Detect bullish engulfing"""
-            if dayAgoDelta < 0 and d < dayAgoOpen and Close > dayAgoClose:
+            if dayAgoDelta < 0 and Open < dayAgoOpen and Close > dayAgoClose:
                scanResults['Bullish Engulfing'] = 'Bullish Engulfing'
                scanResults['score'] =scanResults['score'] + 2
             else:
