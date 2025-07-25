@@ -1,0 +1,51 @@
+Symbol,Company Name,Sector,Market Cap (Billions)
+AAPL,Apple Inc.,Technology,3000
+MSFT,Microsoft Corporation,Technology,2800
+NVDA,NVIDIA Corporation,Technology,1800
+GOOGL,Alphabet Inc. Class A,Communication Services,1700
+AMZN,Amazon.com Inc.,Consumer Discretionary,1500
+META,Meta Platforms Inc.,Communication Services,800
+TSLA,Tesla Inc.,Consumer Discretionary,800
+BRK.B,Berkshire Hathaway Inc. Class B,Financial Services,700
+LLY,Eli Lilly and Company,Healthcare,650
+AVGO,Broadcom Inc.,Technology,600
+JPM,JPMorgan Chase & Co.,Financial Services,550
+UNH,UnitedHealth Group Incorporated,Healthcare,500
+XOM,Exxon Mobil Corporation,Energy,450
+V,Visa Inc.,Financial Services,450
+JNJ,Johnson & Johnson,Healthcare,400
+WMT,Walmart Inc.,Consumer Staples,400
+PG,Procter & Gamble Company,Consumer Staples,380
+MA,Mastercard Incorporated,Financial Services,370
+ORCL,Oracle Corporation,Technology,350
+HD,Home Depot Inc.,Consumer Discretionary,340
+CVX,Chevron Corporation,Energy,320
+ABBV,AbbVie Inc.,Healthcare,310
+NFLX,Netflix Inc.,Communication Services,300
+COST,Costco Wholesale Corporation,Consumer Staples,290
+CRM,Salesforce Inc.,Technology,280
+KO,Coca-Cola Company,Consumer Staples,270
+PEP,PepsiCo Inc.,Consumer Staples,260
+TMO,Thermo Fisher Scientific Inc.,Healthcare,250
+AMD,Advanced Micro Devices Inc.,Technology,240
+ABT,Abbott Laboratories,Healthcare,230
+ACN,Accenture plc,Technology,220
+ADBE,Adobe Inc.,Technology,210
+NOW,ServiceNow Inc.,Technology,200
+TXN,Texas Instruments Incorporated,Technology,190
+MRK,Merck & Co. Inc.,Healthcare,180
+DIS,Walt Disney Company,Communication Services,170
+COP,ConocoPhillips,Energy,160
+NEE,NextEra Energy Inc.,Utilities,150
+DHR,Danaher Corporation,Healthcare,145
+QCOM,QUALCOMM Incorporated,Technology,140
+INTU,Intuit Inc.,Technology,135
+VZ,Verizon Communications Inc.,Communication Services,130
+PM,Philip Morris International Inc.,Consumer Staples,125
+CMCSA,Comcast Corporation,Communication Services,120
+T,AT&T Inc.,Communication Services,115
+LOW,Lowe's Companies Inc.,Consumer Discretionary,110
+SPGI,S&P Global Inc.,Financial Services,105
+UPS,United Parcel Service Inc.,Industrials,100
+IBM,International Business Machines Corporation,Technology,95
+HON,Honeywell International Inc.,Industrials,90

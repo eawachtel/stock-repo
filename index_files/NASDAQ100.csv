@@ -1,0 +1,50 @@
+Symbol,Company Name,Sector
+AAPL,Apple Inc.,Technology
+MSFT,Microsoft Corporation,Technology
+NVDA,NVIDIA Corporation,Technology
+GOOGL,Alphabet Inc. Class A,Communication Services
+GOOG,Alphabet Inc. Class C,Communication Services
+AMZN,Amazon.com Inc.,Consumer Discretionary
+META,Meta Platforms Inc.,Communication Services
+BRK.B,Berkshire Hathaway Inc. Class B,Financial Services
+TSLA,Tesla Inc.,Consumer Discretionary
+AVGO,Broadcom Inc.,Technology
+LLY,Eli Lilly and Company,Healthcare
+JPM,JPMorgan Chase & Co.,Financial Services
+UNH,UnitedHealth Group Incorporated,Healthcare
+XOM,Exxon Mobil Corporation,Energy
+V,Visa Inc.,Financial Services
+JNJ,Johnson & Johnson,Healthcare
+WMT,Walmart Inc.,Consumer Staples
+PG,Procter & Gamble Company,Consumer Staples
+MA,Mastercard Incorporated,Financial Services
+ORCL,Oracle Corporation,Technology
+HD,Home Depot Inc.,Consumer Discretionary
+CVX,Chevron Corporation,Energy
+ABBV,AbbVie Inc.,Healthcare
+NFLX,Netflix Inc.,Communication Services
+COST,Costco Wholesale Corporation,Consumer Staples
+CRM,Salesforce Inc.,Technology
+KO,Coca-Cola Company,Consumer Staples
+PEP,PepsiCo Inc.,Consumer Staples
+TMO,Thermo Fisher Scientific Inc.,Healthcare
+AMD,Advanced Micro Devices Inc.,Technology
+ABT,Abbott Laboratories,Healthcare
+ACN,Accenture plc,Technology
+ADBE,Adobe Inc.,Technology
+NOW,ServiceNow Inc.,Technology
+TXN,Texas Instruments Incorporated,Technology
+MRK,Merck & Co. Inc.,Healthcare
+DIS,Walt Disney Company,Communication Services
+COP,ConocoPhillips,Energy
+NEE,NextEra Energy Inc.,Utilities
+DHR,Danaher Corporation,Healthcare
+QCOM,QUALCOMM Incorporated,Technology
+INTU,Intuit Inc.,Technology
+VZ,Verizon Communications Inc.,Communication Services
+PM,Philip Morris International Inc.,Consumer Staples
+CMCSA,Comcast Corporation,Communication Services
+T,AT&T Inc.,Communication Services
+LOW,Lowe's Companies Inc.,Consumer Discretionary
+SPGI,S&P Global Inc.,Financial Services
+UPS,United Parcel Service Inc.,Industrials
